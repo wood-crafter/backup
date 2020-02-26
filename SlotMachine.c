@@ -9,7 +9,6 @@ float checkNumber(number);
 int main()
 {
 	
-  //TOFIX: Check input user name!
   char userName[21];
   float userMoney;
   float fee = 0.25;
@@ -85,7 +84,7 @@ int main()
         }
     }
 
-    // TODO: Save file
+
     file = fopen(userName, "w+");
     
     fprintf(file, "%s %f\n", userName, userMoney);
